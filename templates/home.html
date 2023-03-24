@@ -13,15 +13,23 @@
     {% include "nav.html" %}
 
     <div class="container">
-   <h1 class="text-center mt-2 mb-4"> jovian Careers</h1>
+
 
    <img  class="rounded mx-auto d-block" src="https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
 
-   <h2 class="text-center mt-3 mb-4">Aboub jovian</h2>
+   <h1 class="text-center mt-2 mb-4"> jovian Careers</h1>
+   <div class="row">
+    <div class="col-md-6" style="margin:80px 0px">
+   <p class="lead">  Praesent cursus tortor quis dignissim ante. Curabitur id ligula eget dolor elementum congue vel sed augue. Integer id mauris pretium, hendrerit erat id, convallis ex. Donec aliquam molestie sapien, ac dictum diam rutrum ut. Praesent turpis nisi, porta in elit nec, facilisis ornare metus</p>
+  </p>
+  </div>   
+   <div class="d-none d-md-block col-md-6">
+   <img src="/static/people.jpg" style="height:320px;border-radius:4px;margin-bottom:20px;" >
+   </div>
+   </div>
 
-   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet tortor nec mi pellentesque lacinia eu eget est. Sed mollis, ex ut imperdiet imperdiet, lorem enim fringilla erat, ac porttitor ex erat ut risus. Sed pulvinar in eros nec hendrerit. Mauris sit amet lectus ut ex iaculis interdum. Praesent cursus tortor quis lacus malesuada lacinia. Aliquam posuere lectus nec porttitor lobortis. Curabitur non nibh vestibulum, facilisis massa sit amet, viverra est. Nunc sodales odio non venenatis tristique. Aliquam blandit tincidunt mollis. Suspendisse ut pretium dui, ac feugiat augue. Suspendisse dignissim at nisi eu dapibus. Suspendisse quis dui bibendum, dictum augue nec, dignissim ante. Curabitur id ligula eget dolor elementum congue vel sed augue. Integer id mauris pretium, hendrerit erat id, convallis ex. Donec aliquam molestie sapien, ac dictum diam rutrum ut. Praesent turpis nisi, porta in elit nec, facilisis ornare metus</p>
-   <h2 class="text-center">openings jobs</h2>    
-   <p >
+   <h2 class="text-center">openings jobs</h2> 
+   
     <div>
    {%for job in jobs%}
 
@@ -33,7 +41,7 @@
     </div> 
    </p>
    <div class="text-center">
-   <button class="btn btn-primary btn-lg">Contact US</button>
+   <a href="mailto:zarlos11111@gmail.com?subject=Question%20about%20jobs%20openings&body=My%20name%20%3Cyour%20name%20here%3E%0D%0Aquestion%3A%20%3Cyour%20question%20here%3E%0D%0A" class="btn btn-primary btn-lg">Contact US</a>
    <p class="mt-4">copyright 2022, Robert</p>
    </div>
   </div>
